@@ -25,7 +25,7 @@ a {
 }
 
 .main {
-  /* min-height: 100vh; */
+  min-height: 100vh;
   display: flex;
   align-items: center;
   text-align: center;
@@ -59,10 +59,13 @@ a {
 .tweet__here {
   height: 100vh;
   padding: 0 1rem;
-  /* display: none; */
+  display: none;
   background-color: #000000;
 }
 
+textarea {
+  color: #6e767d;
+}
 .tweet__post {
   width: 15rem;
   height: 7.6rem;
